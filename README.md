@@ -7,7 +7,7 @@ Set of R functions intended to SVs clustering and merging in order to reduce bre
 
 
 USAGE  
-The R software needs to be installed (https://www.r-project.org/) together with following packages: GenomicRanges, pracma, prodlim, igraph, Matrix, dplyr, Rfast, parallel.
+The R software needs to be installed (https://www.r-project.org/) together with following packages: GenomicRanges, pracma, prodlim, igraph, Matrix, dplyr, Rfast, parallel.  
 Assume that the path to directory with all function from this repository is contained in the R variable: pathToFunc  
 1)	Source file pipeline_findConsistCluster.R:  
 source(paste(pathToFunc, pipeline_findConsistCluster.R”, sep=”/”))  
