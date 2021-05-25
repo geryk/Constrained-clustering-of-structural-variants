@@ -24,7 +24,7 @@ svtype is string representing SV type for with the clustering will be performed.
 
 **triosVect** is string vector, containing all parent-child trios presented within GT_numeric_svtype. Every parents-child trio must be represented as three consecutive string names, where child’s name must be first. The names must correspond to column names of GT_numeric_svtypel. For example if we have two trios: (child1, parent1a, parent1b) and (child2, parent2a, parent2b), then: triosVect=c(“child1”, ”parent1a”, ”parent1b”, ”child2”, ”parent2a”, ”parent2b”).
 
-**nTriosAnalyse** is integer number indicating how many trios will be used for analysis.
+**nTriosAnalyse** is number indicating how many trios will be used for analysis.
 
 **maxDist** is maximal distance (measured by dissimilarity measure) between pair of SVs that will be associated into one cluster.
 
