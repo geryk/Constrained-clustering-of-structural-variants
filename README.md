@@ -8,9 +8,10 @@ Set of R functions intended to SVs clustering and merging in order to reduce bre
 
 USAGE  
 The R software needs to be installed (https://www.r-project.org/) together with following packages: GenomicRanges, pracma, prodlim, igraph, Matrix, dplyr, Rfast, parallel.  
-Assume that the path to directory with all function from this repository is contained in the R variable: pathToFunc  
+
+Assume that the path to directory with all function from this repository is contained in the R variable: **pathToFunc**  
 1)	Source file pipeline_findConsistCluster.R:  
-source(paste(pathToFunc, pipeline_findConsistCluster.R”, sep=”/”))  
+source(paste(**pathToFunc**, pipeline_findConsistCluster.R”, sep=”/”))  
 2)	Run main function (getMergedGT_svtype_maxDist_parallel) with all input variables properly set:  
 results=getMergedGT_svtype_maxDist_parallel(**GT_numeric_svtype**, **svtype**, **bedfile_svtype**, **triosVect**, **nTriosAnalyse**, **maxDist**, **nChunks**, **overlapType**, **pathToFunc**)
 
