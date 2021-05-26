@@ -18,7 +18,8 @@ results=getMergedGT_svtype_maxDist_parallel(**GT_numeric_svtype**, **svtype**, *
 Where:
 
 **GT_numeric_svtype** is integer genotype matrix, were homRef is represented by 0, homAlt is represented by 2 and het is represented by 1.
-svtype is string representing SV type for with the clustering will be performed. Allowed values are: “DEL”,”DUP”,”INS” and “INV”.
+
+**svtype** is string representing SV type for with the clustering will be performed. Allowed values are: “DEL”,”DUP”,”INS” and “INV”.
 
 **bedfile_svtype** is data.frame with genomic positions of individual SVs. The names of columns must be: “chr”, “pos” and “stop”.
 
