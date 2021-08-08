@@ -38,7 +38,7 @@ getMergedGT_svtype_maxDist_chr<-function(chr_i,GT_numeric_svtype,bedfile_svtype,
  library(GenomicRanges)  
   
   source(paste(pathToFunc,"dissimilarityMeasures.R",sep="/"))   
-  source(paste(pathToFunc,"improveCluster_PIPELINE.R",sep="/"))
+  source(paste(pathToFunc,"pipeline_improveCluster.R",sep="/"))
   source(paste(pathToFunc,"improveCluster_getConsistConfigs.R",sep="/"))
   source(paste(pathToFunc,"improveCluster_getSeeds.R",sep="/"))
   source(paste(pathToFunc,"improveCluster_constrainedClustering.R",sep="/"))
